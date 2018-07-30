@@ -9,6 +9,16 @@
             "email": "mashraf@clueapps.net"
         }
     ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Clueapp\\Contact\\ContactServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
     "minimum-stability": "dev",
     "require": {
 
