@@ -1,0 +1,21 @@
+{
+    "name": "clueapps/contact",
+    "description": "This will send Email to admins and save contact query in database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohamed Ashraf",
+            "email": "mashraf@clueapps.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Clueapp\\Contact\\": "src/"
+        }
+    }
+}
