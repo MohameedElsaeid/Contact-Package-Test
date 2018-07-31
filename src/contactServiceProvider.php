@@ -26,11 +26,11 @@ class ContactServiceProvider extends ServiceProvider {
         ]);
         
         $this->publishes([
-            __DIR__ . '/views/' => pathinfo('/resources/views/')
+            __DIR__ . '/views/' => base_path('/resources/views/')
         ]);
     
         $this->publishes([
-            __DIR__ . '/Models/Contact.php' => pathinfo('app/')
+            __DIR__ . '/Models/Contact.php' => base_path('app/')
         ]);
     
     
