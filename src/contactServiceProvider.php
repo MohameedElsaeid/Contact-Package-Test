@@ -20,6 +20,22 @@ class ContactServiceProvider extends ServiceProvider {
         $this->publishes([
             __DIR__ . '/config/contact.php' => config_path('contact.php')
         ]);
+    
+        $this->publishes([
+            __DIR__ . '/database/migrations/' => database_path('migrations')
+        ]);
+        
+        $this->publishes([
+            __DIR__ . '/views/' => pathinfo('/resources/views/')
+        ]);
+    
+        $this->publishes([
+            __DIR__ . '/Models/Contact.php' => pathinfo('app/')
+        ]);
+    
+    
+    
+    
     }
     
     public function register() {
